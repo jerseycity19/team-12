@@ -3,6 +3,11 @@ import './Trackpage.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Todos from './Todos'
 
+/*
+Notes:
+-Image not showing fix:
+   When using Webpack you need to require images in order for Webpack to process them, which would explain why external images load while internal do not, so instead of <img src={"/images/resto.png"} /> you need to use <img src={require('/images/image-name.png')} /> replacing image-name.png with the correct image name for each of them. That way Webpack is able to process and replace the source img.
+*/
 
 class Trackpage extends Component {
   state = {
@@ -57,9 +62,20 @@ class Trackpage extends Component {
 		  </div>
 		  <div className="column-two">
 		  	<h2>Achievements</h2>
-
-	  	  </div>
-		</div>
+        <div className="xp-wrapper">
+          <div className="xp">
+            <p>XP Gained: </p><p>0</p>
+          </div>
+        </div>
+        <div className="bronze-league">>
+          <img src={require('./bronze-league.png')}/>
+        </div>
+        <div>
+          <img src={require('./achievements-and-friends.png')}/>
+        </div>
+    </div>
+		
+    </div>
 
 
 	</div>
