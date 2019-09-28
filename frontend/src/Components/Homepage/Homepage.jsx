@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Homepage.css'
+import './Homepage.scss'
 class Homepage extends Component {
   render(){
     return (
