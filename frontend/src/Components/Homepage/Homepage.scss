@@ -5,7 +5,7 @@
 
 .top-header{
   background-image: url("./doctor.png");
-  height: 500px;
+  height: 700px;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: left;
@@ -29,7 +29,9 @@
 .gray-header{
   background-color: #f1f1f1!important;
   text-align: left;
-  padding: 10px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
 }
 
 .text-box{
@@ -37,4 +39,9 @@
   h1{
     font-family: Verdana,sans-serif;
   }
+}
+
+.forum-image{
+  height: 50%;
+  width: 50%;
 }

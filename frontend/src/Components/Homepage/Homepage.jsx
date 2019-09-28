@@ -42,8 +42,12 @@ class Homepage extends Component {
           <div className ="text-box">
             <h1>Forum for Open Discussion</h1>
             <p>This is a safe space for our account members to and vistors to engage in open discussion. Please feel free to make a post sharing an experience, question or thought with our community</p>
+            <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
           </div>
-          
+          <img className="forum-image" src={require("./sample-forum.png")} alt="forum"/>
+        </div>
+        <div className="event-header">
+          <h2>Upcoming Events</h2>
         </div>
       </div>
       
