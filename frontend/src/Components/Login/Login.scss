@@ -1,0 +1,17 @@
+.top-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    h1{
+      color: white;
+      font-family: "Raleway", sans-serif;
+      font-size: 60px;
+    }
+    p{
+      color: white;
+      font-family: "Raleway", sans-serif;
+      font-size: 20px;
+    }
+  
+  }

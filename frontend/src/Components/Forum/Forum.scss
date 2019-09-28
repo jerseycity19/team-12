@@ -1,0 +1,21 @@
+.background-image{
+    width: 100%;
+    height: 100%;
+}
+
+.forum-header{
+    background-image: url(celebrateRec.jpg);
+    height: 400px;
+    h1{
+        color: white;
+        font-family: "Comic-sans";
+        font-size: 60px;
+      }
+    p{
+        color: white;
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        position: relative;
+        top: 200px;
+    }
+}
