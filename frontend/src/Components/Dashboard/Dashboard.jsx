@@ -5,10 +5,10 @@ import './Dashboard.scss';
 class Dashboard extends Component {
   render(){
     return (
-      <div className = "outside">
-      <img src={require('./picture.png')}></img>
+    <div className = "outside">
+      <img src={require('./picture.png')}/>
 
-      <img src={require('./bronze-league.png')} className = "bronze"></img>
+      <img src={require('./bronze-league.png')} className = "bronze"/>
       <div class="w3-card">
         <img src={require("./event.png")} alt="John" className = "event-image"/>
         <div class="w3-container">
@@ -18,8 +18,8 @@ class Dashboard extends Component {
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> RSVP</button></p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Volunteer</button></p>
         </div>
-        </div>
-        </div>
+      </div>
+    </div>
       )
     }
   }
