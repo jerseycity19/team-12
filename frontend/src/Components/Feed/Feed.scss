@@ -1,0 +1,124 @@
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 5%;
+  top: 6%;
+}
+
+@media (max-width: 48em) {
+  .bm-burger-button {
+    width: 18px;
+    height: 15px;
+  }
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.menu {
+  width: 250px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #ffffff;
+  /* padding: 2.5em 1.5em 0; */
+  font-size: 1.15em;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  color: #313131;
+}
+
+.fa-fw {
+  width: 1.2em;
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu h1 {
+  text-align: center;
+}
+
+.btn2 {
+  color: #313131;
+  background-color: white;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  padding: 1em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.btn2:hover {
+  color: #0c55f4;
+}
+
+.menu i {
+  margin-right: 10px;
+}
+
+/* Social Icons Footer Side Bar */
+#social {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+#social a:hover {
+  color: #0c55f4;
+}
+
+#social a {
+  display: inline-block;
+  font-size: 24px;
+  padding: 0 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #313131;
+}
+
+#social p {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+a span {
+  display: none;
+}
+
+.feed-image{
+  width: 90%;
+  margin: 10px;
+}

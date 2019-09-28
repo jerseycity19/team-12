@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Feed from '../../Components/Feed/Feed'
 import "./Navbar.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faUser as faUserEmpty } from "@fortawesome/free-regular-svg-icons";
@@ -9,9 +10,15 @@ class Navbar extends Component {
 
   render() {
     return (
+      <div>
+        <div>
+        <Feed/>
+          </div>
+      
       <div class="w3-top">
+        
         <div className="w3-bar w3-white w3-card" id="myNavbar">
-            <div className="w3-bar-item w3-button w3-wide">
+            <div className="logo-div">
                 <a href="/">
                   <img
                     className="logo"
@@ -31,6 +38,7 @@ class Navbar extends Component {
           </div>
         </div>
       </div>  
+      </div>
     );
   }
 }
