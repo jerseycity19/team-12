@@ -7,7 +7,6 @@ import Login from "./Components/Login/Login";
 import forumPost from './Components/forumPost/forumPost'
 import Dashboard from './Components/Dashboard/Dashboard'
 import Survey from "./Components/Survey/Survey";
-import Dashboard from "./Components/Dashboard/Dashboard";
 import Forum from './Components/Forum/Forum';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
