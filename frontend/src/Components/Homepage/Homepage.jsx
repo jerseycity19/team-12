@@ -4,7 +4,7 @@ class Homepage extends Component {
   render(){
     return (
       <div>
-        <div className = "top-header">
+        <div className = "home-top-header">
           <h1>Stronger than Addiction</h1>
           <p>Shatterproof is a national nonprofit organization dedicated to ending the devastation addiction causes families</p>
           <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Need help? Click here</a></p>

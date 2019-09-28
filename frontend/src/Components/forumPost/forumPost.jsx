@@ -8,8 +8,8 @@ class forumPost extends Component {
     return (
       <div className ="outside">
       <div className ="title">
-      <h1>You are never alone!!!</h1>
-      <h2>By: John Doe</h2>
+      <h1 className ="forum-header-post">You are never alone!!!</h1>
+      <h2 className ="forum-header2">By: John Doe</h2>
       </div>
 <Card className = "titlePost">
   <Card.Body>Addiction is tough, not only for the individual going through it, but also for the family. I want people to know my story, so that I can break free of the stigma,
