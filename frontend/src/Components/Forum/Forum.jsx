@@ -6,8 +6,8 @@ import './Forum.scss';
 class Forum extends Component {
   render(){
     return (
-      <div>
-      <div className = "forum-header">
+      <div className = "forum">
+        <div className = "forum-header">
         
         <h1>Forum for Open Discussions</h1>
         <p>The is a safe space for our account members and visitors to engage in open discussion. 
@@ -18,7 +18,7 @@ class Forum extends Component {
           
             <div className = "ColDiv">
               <Card>
-              <a href = "/article1"><img src={require("./download.jpeg")} className = "fightIt"/></a>
+              <a href = "/forumPost"><img src={require("./download.jpeg")} className = "fightIt"/></a>
                 <Card.Body>
                   <Card.Title>Article 1</Card.Title>
                   <Card.Text>
@@ -33,7 +33,7 @@ class Forum extends Component {
             </div>
             <div className = "ColDiv">
             <Card>
-            <a href = "/article1"><img src={require("./download.jpeg")} className = "fightIt"/></a>
+            <a href = "/forumPost"><img src={require("./download.jpeg")} className = "fightIt"/></a>
               <Card.Body>
                 <Card.Title>Article 2</Card.Title>
                 <Card.Text>
@@ -48,7 +48,7 @@ class Forum extends Component {
             </div>
             <div className = "ColDiv">
             <Card>
-            <a href = "/article1"><img src={require("./download.jpeg")} className = "fightIt"/></a>
+            <a href = "/forumPost"><img src={require("./download.jpeg")} className = "fightIt"/></a>
               <Card.Body>
                 <Card.Title>Article 3</Card.Title>
                 <Card.Text>

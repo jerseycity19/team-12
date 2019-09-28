@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl } from "react-bootstrap";
+import {Link} from 'react-router-dom';
 import "./Login.scss";
 
 export default class Login extends Component {
@@ -25,7 +26,7 @@ export default class Login extends Component {
   handleSubmit = event => {
     event.preventDefault();
   }
-
+ 
   render() {
     return (
       <div className="Login">
@@ -53,7 +54,8 @@ export default class Login extends Component {
             disabled={!this.validateForm()}
             type="submit"
           >
-            Login
+            <Link to = "/dashboard" className = "link">Login</Link>
+            
           </Button>
         </form>
       </div>

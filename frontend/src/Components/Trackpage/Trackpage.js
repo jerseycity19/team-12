@@ -31,6 +31,41 @@ class Trackpage extends Component {
         id: 4,
         title: 'Go to an addiction related event',
         completed: false
+      },
+      {
+        id: 5,
+        title: 'Share your story!',
+        completed: false
+      },
+      {
+        id: 6,
+        title: 'Make a social media post on addiction #shatterproof',
+        completed: false
+      },
+      {
+        id: 7,
+        title: 'Do some research!',
+        completed: false
+      },
+      {
+        id: 8,
+        title: 'Talk to a friend about it',
+        completed: false
+      },
+      {
+        id: 9,
+        title: 'Create a post!',
+        completed: false
+      },
+      {
+        id: 10,
+        title: 'Participate at an event!',
+        completed: false
+      },
+      {
+        id: 11,
+        title: 'Refer a friend',
+        completed: false
       }
     ]
   }      
@@ -49,45 +84,62 @@ class Trackpage extends Component {
     render(){
     	return (
 
-	<div className="body">
-    <div className="space-on-top">
-    </div>
-		<div className ="title">
-      <div className="title-inner">
-			 <p>TAKE ACTION</p>
-			 <h1>Raise Awareness Track</h1>
-      </div>
-		</div>
-		<div className = "summary">
-			<div className="summary-inner">
-				<p>Together we can reduce the stigma and secrecy associated with addiction. Earn achievements and xp and make a difference at the same time!</p>
-			</div>
-		</div>
-
-		<div className="wrapper">
-		  <div className="column-one">
-		  	<h2>To dos</h2>
-       	    <Todos todos={this.state.todos} markComplete={this.markComplete}/>  
-		  </div>
-		  <div className="column-two">
-		  	<h2>Achievements</h2>
-        <div className="xp-wrapper">
-          <div className="xp">
-            <p>XP Gained: </p><p>0</p>
+        <div className="body">
+          <div className="space-on-top">
           </div>
-        </div>
-        <div className="bronze-league">>
-          <img src={require('./bronze-league.png')}/>
-        </div>
-        <div>
-          <img src={require('./achievements-and-friends.png')}/>
-        </div>
-    </div>
-		
-    </div>
+          <div className ="title-of-track">
+            <div className="title-inner">
+            <p>TAKE ACTION</p>
+            <h1>Raise Awareness Track</h1>
+            </div>
+          </div>
+          <div className = "summary">
+            <div className="summary-inner">
+              <p>Together we can reduce the stigma and secrecy associated with addiction. Earn achievements and xp and make a difference at the same time!</p>
+            </div>
+          </div>
+
+          <div className="wrapper">
+            <div className="column-one">
+              <h2>To dos</h2>
+              <div className="bronze-league-title-wrapper">
+                <h3 className="bronze-league-title">Bronze League</h3>
+              </div>
+                  <div className="todos-block-one">
+                    <Todos todos={this.state.todos.slice(0,4)} markComplete={this.markComplete}/>  
+                  </div>
+              <div className="silver-league-title-wrapper">
+                <h3 className="silver-league-title">Silver League</h3>
+              </div>
+                  <div className="todos-block-two">
+                    <Todos todos={this.state.todos.slice(4,8)} markComplete={this.markComplete}/>  
+                  </div>
+              <div className="gold-league-title-wrapper">
+                <h3 className="gold-league-title">Gold League</h3>
+              </div>
+                  <div className="todos-block-three">
+                    <Todos todos={this.state.todos.slice(8,11)} markComplete={this.markComplete}/>  
+                  </div>
+            </div>
+            <div className="column-two">
+              <h2>Achievements</h2>
+              <div className="xp-wrapper">
+                <div className="xp">
+                  <p>XP Gained: </p><p>0</p>
+                </div>
+              </div>
+              <div className="bronze-league">
+                <img src={require('./bronze-league.png')}/>
+              </div>
+              <div className="achievements-and-friends">
+                <img src={require('./achievements-and-friends.png')}/>
+              </div>
+          </div>
+          
+          </div>
 
 
-	</div>
+        </div>
     	)
     }
 }

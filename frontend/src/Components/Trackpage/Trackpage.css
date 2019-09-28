@@ -9,14 +9,15 @@
 /*	background-color: red; */
 }
 
-.title
+.title-of-track
 {
 	background-color: #3E62AC;
 	color: white;
 	display: flex;
-	width: ;
 	height: 140px;
 	flex-direction: column;
+	position: relative;
+	/* top: 10px; */
 /*	margin-top: 30px;  */
 	
 }
@@ -30,9 +31,7 @@
 	color: #60C4B7;
 }
 
-.title-inner{
-	align-items: 
-}
+
 
 .summary{
 	height: 120px;
@@ -59,10 +58,65 @@
 
 .column-one{
 	width: 80%;
-	margin-left: 110px;
+	margin-left: 250px;
 }
 
-.column-two{
+.bronze-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.bronze-league-title{
+	margin-top: 20px;
+	font-size: 14px;
+	background-color: rgba(205, 127, 50, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.silver-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.silver-league-title{
+	font-size: 14px;
+	background-color: rgba(192,192,192, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.gold-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.gold-league-title{
+	font-size: 14px;
+	background-color: rgba(255,215,0, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.todos-block-one{
+	/*
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+	height: 500px;
+	width: 500px;
+	background-color: red;
+	*/
+	margin-bottom: 170px;
+}
+
+.todos-block-two{
+	margin-bottom: 170px;
 
 }
 
@@ -82,4 +136,8 @@
 
 .bronze-league{
 	margin-bottom:20px;
+}
+
+.achievements-and-friends{
+	margin-bottom: 80px;
 }
