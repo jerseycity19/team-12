@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jerseycity19/team-12/issues"
   },
-  "homepage": "https://github.com/jerseycity19/team-12#readme"
+  "homepage": "https://github.com/jerseycity19/team-12#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
