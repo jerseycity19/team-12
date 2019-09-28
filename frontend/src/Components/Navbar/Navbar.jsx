@@ -10,6 +10,7 @@ class Navbar extends Component {
 
   render() {
     return (
+      <div class="w3-top">
         <div className="w3-bar w3-white w3-card" id="myNavbar">
             <div className="w3-bar-item w3-button w3-wide">
                 <a href="/">
@@ -27,9 +28,9 @@ class Navbar extends Component {
                   <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
                   <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
                   <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-                </div>
+          </div>
         </div>
-        
+      </div>  
     );
   }
 }
