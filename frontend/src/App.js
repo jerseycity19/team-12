@@ -21,7 +21,6 @@ function App() {
           <Route exact path="/track" component={Trackpage} />
           <Route exact path="/forumPost" component={forumPost}/>
           <Route exact path="/Dashboard" component ={Dashboard}/>
-          <Route exact path="/forumPost" component ={forumPost}/>
           <Route exact path="/Login" component={Login} />
           <Route exact path="/Survey" component={Survey} />
           <Route exact path="/Forum" component={Forum} />
