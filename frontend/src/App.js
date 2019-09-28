@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <MyNavbar/>
+      <Navbar/>
       <Router>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/Forum" component={Forum} />
