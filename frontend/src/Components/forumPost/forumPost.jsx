@@ -6,7 +6,7 @@ import "./forumPost.scss";
 class forumPost extends Component {
   render(){
     return (
-      <div className ="outside">
+      <div className ="outside-forum">
       <div className ="forum-title">
         <h1 className ="forum-header-post">You are never alone!!!</h1>
         <h2 className ="forum-header2">By: John Doe</h2>
