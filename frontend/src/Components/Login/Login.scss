@@ -1,5 +1,5 @@
 .top-header{
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2em;
@@ -14,4 +14,19 @@
       font-size: 20px;
     }
   
+  }
+
+  .Login{
+    position: relative;
+    top: 200px;
+    width: 500px;
+    height: 250px;
+    padding: 2em;
+    left: 32%;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+  }
+  .link{
+    color: white;
   }

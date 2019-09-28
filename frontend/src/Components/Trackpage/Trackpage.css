@@ -9,14 +9,15 @@
 /*	background-color: red; */
 }
 
-.title
+.title-of-track
 {
 	background-color: #3E62AC;
 	color: white;
 	display: flex;
-	width: ;
 	height: 140px;
 	flex-direction: column;
+	position: relative;
+	/* top: 10px; */
 /*	margin-top: 30px;  */
 	
 }
@@ -30,9 +31,7 @@
 	color: #60C4B7;
 }
 
-.title-inner{
-	align-items: 
-}
+
 
 .summary{
 	height: 120px;
@@ -118,11 +117,6 @@
 
 .todos-block-two{
 	margin-bottom: 170px;
-
-}
-
-
-.column-two{
 
 }
 

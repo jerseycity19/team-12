@@ -4,7 +4,7 @@ class Homepage extends Component {
   render(){
     return (
       <div>
-        <div className = "top-header">
+        <div className = "home-top-header">
           <h1>Stronger than Addiction</h1>
           <p>Shatterproof is a national nonprofit organization dedicated to ending the devastation addiction causes families</p>
           <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Need help? Click here</a></p>
@@ -21,7 +21,7 @@ class Homepage extends Component {
           <div class="w3-quarter">
             <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
             <p class="w3-large">End the Stigma</p>
-            <p>More people than you might expect are impacted by addiction. Click <i>here</i> to see the stats.</p>
+            <p>More people than you might expect are impacted by addiction. Click <a href="/track">here</a> to see the stats.</p>
           </div>
           <div class="w3-quarter">
             <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
@@ -39,7 +39,7 @@ class Homepage extends Component {
           <div className ="text-box">
             <h1>Forum for Open Discussion</h1>
             <p>This is a safe space for our account members to and vistors to engage in open discussion. Please feel free to make a post sharing an experience, question or thought with our community</p>
-            <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+            <p><a href="/Forum" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
           </div>
           <img className="forum-image" src={require("./sample-forum.png")} alt="forum"/>
         </div>
