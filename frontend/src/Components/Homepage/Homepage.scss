@@ -5,7 +5,7 @@
 
 .top-header{
   background-image: url("./doctor.png");
-  height: 500px;
+  height: 700px;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: left;
@@ -23,5 +23,39 @@
     font-family: "Raleway", sans-serif;
     font-size: 20px;
   }
+
+}
+
+.gray-header{
+  background-color: #f1f1f1!important;
+  text-align: left;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.text-box{
+  width: 50%;
+  h1{
+    font-family: Verdana,sans-serif;
+  }
+}
+.event-grid{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.forum-image{
+  height: 50%;
+  width: 50%;
+}
+
+.w3-card{
+  width:25%;
+  margin: 1em;
+}
+
+.user-stories{
+  background-color:#f1f1f1!important;
 
 }
