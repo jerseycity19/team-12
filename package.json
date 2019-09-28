@@ -1,0 +1,19 @@
+{
+  "name": "team-12",
+  "version": "1.0.0",
+  "description": "Team 12's Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerseycity19/team-12.git"
+  },
+  "author": "Team12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerseycity19/team-12/issues"
+  },
+  "homepage": "https://github.com/jerseycity19/team-12#readme"
+}
