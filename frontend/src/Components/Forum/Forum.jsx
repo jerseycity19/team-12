@@ -7,7 +7,7 @@ class Forum extends Component {
   render(){
     return (
       <div>
-      <div className = "forum-header">
+        <div className = "forum-header">
         
         <h1>Forum for Open Discussions</h1>
         <p>The is a safe space for our account members and visitors to engage in open discussion. 
