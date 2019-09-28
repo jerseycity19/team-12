@@ -5,9 +5,9 @@ import Navbar from "./Components/Navbar/Navbar";
 import Trackpage from "./Components/Trackpage/Trackpage";
 import Login from "./Components/Login/Login";
 import forumPost from './Components/forumPost/forumPost'
+import Dashboard from './Components/Dashboard/Dashboard'
 import Survey from "./Components/Survey/Survey";
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Forum from './Components/Forum/Forum'
+import Forum from './Components/Forum/Forum';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
@@ -19,6 +19,8 @@ function App() {
       <Router>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/track" component={Trackpage} />
+          <Route exact path="/forumPost" component={forumPost}/>
+          <Route exact path="/Dashboard" component ={Dashboard}/>
           <Route exact path="/forumPost" component ={forumPost}/>
           <Route exact path="/Login" component={Login} />
           <Route exact path="/Survey" component={Survey} />
