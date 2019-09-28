@@ -70,7 +70,7 @@ class Homepage extends Component {
           </div>
         </div>
         <div className="user-stories">
-          <h2>Upcoming Events</h2>
+          <h2>User Stories</h2>
           <div  className="event-grid">
             <div class="w3-card">
               <img src="/w3images/team2.jpg" alt="John"/>

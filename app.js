@@ -14,19 +14,19 @@ configRoutes(app);
 
 
 
-const dataBase = "mongodb://localhost:27017/Team12_ShatterProof"
+// const dataBase = "mongodb://localhost:27017/Team12_ShatterProof"
 
-mongoose
-  .connect(dataBase, { useNewUrlParser: true })
-  .then(() => console.log("MongoDB Connected..."))
-  .catch(err => console.log(err));
+// mongoose
+//   .connect(dataBase, { useNewUrlParser: true })
+//   .then(() => console.log("MongoDB Connected..."))
+//   .catch(err => console.log(err));
 
-  const newTests = new Tests({
-    name: "test"
-  })
-  newTests.save()
+//   const newTests = new Tests({
+//     name: "test"
+//   })
+//   newTests.save()
 
-app.listen(3000, () => {
+app.listen(5000, () => {
   console.log("We've now got a server!");
-  console.log("Your routes will be running on http://localhost:3000");
+  console.log("Your routes will be running on http://localhost:5000");
 });

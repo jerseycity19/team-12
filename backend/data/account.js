@@ -1,4 +1,4 @@
-const mongoCollections = require("/mongoCollections.js");
+const mongoCollections = require("./mongoCollections.js");
 const users = mongoCollections.users;
 const ObjectId = require('mongodb').ObjectId; //or ObjectID
 const bcrypt = require("bcrypt");
