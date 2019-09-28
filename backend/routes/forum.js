@@ -32,13 +32,12 @@ module.exports = {
         if(typeof(post) !== "string"){
           throw "Error: Rating must be a string";
         }
-
+    }
         const courseCollection = await courses();
 
         let newForum = {
             forumTitle: title,
             forumPost: post
         };
-    };
-},
+    }
 };
