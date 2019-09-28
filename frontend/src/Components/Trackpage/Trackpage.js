@@ -26,6 +26,11 @@ class Trackpage extends Component {
         id: 3,
         title: 'Refer a friend',
         completed: false
+      },
+      {
+        id: 4,
+        title: 'Go to an addiction related event',
+        completed: false
       }
     ]
   }      
@@ -45,9 +50,13 @@ class Trackpage extends Component {
     	return (
 
 	<div className="body">
+    <div className="space-on-top">
+    </div>
 		<div className ="title">
-			<p>TAKE ACTION</p>
-			<h1>Raise Awareness Track</h1>
+      <div className="title-inner">
+			 <p>TAKE ACTION</p>
+			 <h1>Raise Awareness Track</h1>
+      </div>
 		</div>
 		<div className = "summary">
 			<div className="summary-inner">

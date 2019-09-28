@@ -4,6 +4,11 @@
 
 }
 
+.space-on-top{
+	height: 125px;
+/*	background-color: red; */
+}
+
 .title
 {
 	background-color: #3E62AC;
@@ -23,6 +28,10 @@
 
 .title p{
 	color: #60C4B7;
+}
+
+.title-inner{
+	align-items: 
 }
 
 .summary{
@@ -46,6 +55,11 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.column-one{
+	width: 80%;
+	margin-left: 110px;
 }
 
 .column-two{
