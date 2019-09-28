@@ -1,3 +1,9 @@
+.body
+{
+    font-family: "Raleway", sans-serif;
+
+}
+
 .title
 {
 	background-color: #3E62AC;
@@ -34,4 +40,32 @@
 /*	background-color: red; */
 	height: 100px;
 
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column-two{
+
+}
+
+.xp-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.xp{
+/*	border-style: solid; */
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+.bronze-league{
+	margin-bottom:20px;
 }

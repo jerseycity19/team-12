@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Trackpage from "./Components/Trackpage/Trackpage";
 import Login from "./Components/Login/Login";
 import Survey from "./Components/Survey/Survey";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
