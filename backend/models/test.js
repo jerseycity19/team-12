@@ -8,4 +8,4 @@ name: {
 })
 
 
-module.exports = Tests = mongoose.model("test", testSchema)
+module.exports = mongoose.model("test", testSchema)
