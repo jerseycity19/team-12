@@ -9,11 +9,7 @@
     "react-dom": "^16.10.0",
     "react-router-dom": "5.1.1",
     "react-scripts": "3.1.2",
-<<<<<<< HEAD
     "survey-react": "^1.1.13"
-=======
-    "reactstrap": "^8.0.1"
->>>>>>> decff05434c8fd032425122dc16406a4a5e1c636
   },
   "scripts": {
     "start": "react-scripts start",

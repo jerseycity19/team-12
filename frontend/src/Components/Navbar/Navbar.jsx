@@ -27,6 +27,7 @@ class Navbar extends Component {
                   <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> USER STORIES</a>
                   <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> DISCUSSION</a>
                   <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> DONATE</a>
+                  <a href="/Login" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> LOGIN</a>
           </div>
         </div>
       </div>  
