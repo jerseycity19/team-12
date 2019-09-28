@@ -9,6 +9,10 @@
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
   h1{
     color: white;
     font-family: "Raleway", sans-serif;
