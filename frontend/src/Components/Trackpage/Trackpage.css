@@ -1,3 +1,14 @@
+.body
+{
+    font-family: "Raleway", sans-serif;
+
+}
+
+.space-on-top{
+	height: 125px;
+/*	background-color: red; */
+}
+
 .title
 {
 	background-color: #3E62AC;
@@ -19,6 +30,10 @@
 	color: #60C4B7;
 }
 
+.title-inner{
+	align-items: 
+}
+
 .summary{
 	height: 120px;
 	color: #8B8E99;
@@ -34,4 +49,37 @@
 /*	background-color: red; */
 	height: 100px;
 
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column-one{
+	width: 80%;
+	margin-left: 110px;
+}
+
+.column-two{
+
+}
+
+.xp-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.xp{
+/*	border-style: solid; */
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+.bronze-league{
+	margin-bottom:20px;
 }

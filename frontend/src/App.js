@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Homepage from './Components/Homepage/Homepage';
-import MyNavbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Forum from "./Components/Forum/Forum";
 import Login from "./Components/Login/Login";
 import Trackpage from './Components/Trackpage/Trackpage'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
