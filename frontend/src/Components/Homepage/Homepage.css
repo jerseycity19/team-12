@@ -1,0 +1,11 @@
+.background-image{
+  width: 100%;
+  height: 50%;
+}
+
+.top-header{
+  background-image: url("./doctor.png");
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
