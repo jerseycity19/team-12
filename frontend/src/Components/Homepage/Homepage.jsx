@@ -4,10 +4,7 @@ class Homepage extends Component {
   render(){
     return (
       <div>
-<div className = "top-header">
-        {/* <img className="background-image"
-                    src={require("./doctor.png")}
-                    alt="background"></img> */}
+        <div className = "top-header">
           <h1>Stronger than Addiction</h1>
           <p>Shatterproof is a national nonprofit organization dedicated to ending the devastation addiction causes families</p>
           <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
@@ -50,21 +47,21 @@ class Homepage extends Component {
           <h2>Upcoming Events</h2>
           <div  className="event-grid">
             <div class="w3-card">
-              <img src="/w3images/team2.jpg" alt="John"/>
+              <img src={require("./event.png")} alt="John" className = "event-image"/>
               <div class="w3-container">
-                <h3>John Doe</h3>
-                <p class="w3-opacity">CEO & Founder</p>
+                <h3>Celebrate Recovery</h3>
+                <p class="w3-opacity">New York, New York</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> RSVP</button></p>
               </div>
             </div>
             <div class="w3-card">
-              <img src="/w3images/team2.jpg" alt="John"/>
+              <img src={require("./event.png")} alt="John" className = "event-image"/>
               <div class="w3-container">
-                <h3>John Doe</h3>
-                <p class="w3-opacity">CEO & Founder</p>
+                <h3>Comissoner Talk</h3>
+                <p class="w3-opacity">Delaware</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> RSVP</button></p>
               </div>
             </div>
           </div>
@@ -73,21 +70,21 @@ class Homepage extends Component {
           <h2>User Stories</h2>
           <div  className="event-grid">
             <div class="w3-card">
-              <img src="/w3images/team2.jpg" alt="John"/>
+              <img src={require("./candle.jpeg")} alt="John" className = "candle-image"/>
               <div class="w3-container">
                 <h3>John Doe</h3>
-                <p class="w3-opacity">CEO & Founder</p>
+                <p class="w3-opacity">1989-2018</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read more</button></p>
               </div>
             </div>
             <div class="w3-card">
-              <img src="/w3images/team2.jpg" alt="John"/>
+              <img img src={require("./candle.jpeg")} alt="John" className = "candle-image"/>
               <div class="w3-container">
-                <h3>John Doe</h3>
-                <p class="w3-opacity">CEO & Founder</p>
+                <h3>Jane Doe</h3>
+                <p class="w3-opacity">1989-2018</p>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read more</button></p>
               </div>
             </div>
           </div>

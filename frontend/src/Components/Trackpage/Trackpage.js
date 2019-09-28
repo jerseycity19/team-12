@@ -26,6 +26,11 @@ class Trackpage extends Component {
         id: 3,
         title: 'Refer a friend',
         completed: false
+      },
+      {
+        id: 4,
+        title: 'Go to an addiction related event',
+        completed: false
       }
     ]
   }      
@@ -44,41 +49,45 @@ class Trackpage extends Component {
     render(){
     	return (
 
-	<div className="body">
-		<div className ="title">
-			<p>TAKE ACTION</p>
-			<h1>Raise Awareness Track</h1>
-		</div>
-		<div className = "summary">
-			<div className="summary-inner">
-				<p>Together we can reduce the stigma and secrecy associated with addiction. Earn achievements and xp and make a difference at the same time!</p>
-			</div>
-		</div>
-
-		<div className="wrapper">
-		  <div className="column-one">
-		  	<h2>To dos</h2>
-       	    <Todos todos={this.state.todos} markComplete={this.markComplete}/>  
-		  </div>
-		  <div className="column-two">
-		  	<h2>Achievements</h2>
-        <div className="xp-wrapper">
-          <div className="xp">
-            <p>XP Gained: </p><p>0</p>
+        <div className="body">
+          <div className="space-on-top">
           </div>
-        </div>
-        <div className="bronze-league">>
-          <img src={require('./bronze-league.png')}/>
-        </div>
-        <div>
-          <img src={require('./achievements-and-friends.png')}/>
-        </div>
-    </div>
-		
-    </div>
+          <div className ="title">
+            <div className="title-inner">
+            <p>TAKE ACTION</p>
+            <h1>Raise Awareness Track</h1>
+            </div>
+          </div>
+          <div className = "summary">
+            <div className="summary-inner">
+              <p>Together we can reduce the stigma and secrecy associated with addiction. Earn achievements and xp and make a difference at the same time!</p>
+            </div>
+          </div>
+
+          <div className="wrapper">
+            <div className="column-one">
+              <h2>To dos</h2>
+                  <Todos todos={this.state.todos} markComplete={this.markComplete}/>  
+            </div>
+            <div className="column-two">
+              <h2>Achievements</h2>
+              <div className="xp-wrapper">
+                <div className="xp">
+                  <p>XP Gained: </p><p>0</p>
+                </div>
+              </div>
+              <div className="bronze-league">>
+                <img src={require('./bronze-league.png')}/>
+              </div>
+              <div>
+                <img src={require('./achievements-and-friends.png')}/>
+              </div>
+          </div>
+          
+          </div>
 
 
-	</div>
+        </div>
     	)
     }
 }

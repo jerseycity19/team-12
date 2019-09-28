@@ -19,3 +19,25 @@
         top: 200px;
     }
 }
+
+.RowDiv {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ColDiv {
+    width: 200px;
+    height: 320px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.fightIt {
+    width: 100px;
+    height: 100px;
+
+}
+
