@@ -10,6 +10,12 @@ router.get("/", (req, res) => {
   //   name: "test"
   // })
   // newTests.save().then(res =>res.json({success:true}));
+  //var = call mongo server
+  return_value = {
+    "first_name": "cedric",
+    "last_name": "wong",
+    "email": "cedric@jpmc.com"
+  }
 
 })
 
