@@ -1,4 +1,4 @@
-const mongoCollections = require("./mongoCollections.js");
+const mongoCollections = require("/mongoCollections.js");
 const users = mongoCollections.users;
 const ObjectId = require('mongodb').ObjectId; //or ObjectID
 const bcrypt = require("bcrypt");
@@ -27,7 +27,6 @@ module.exports = {
       hashPassword: hash,
       exp: 0
     }
-    
     const insertInfo = await userCollection.insertOne(newUser);
     if(insertInfo.insertedCount ===0){
             throw "Could not enter user information";
@@ -54,7 +53,20 @@ module.exports = {
        }
        return theUser;
    },
-
-
+   //Need to test
+   async updateExp(id, exp) {
+    const userCollection = await users();
+    if(!id) {
+      throw "Error: Must provide an Id";
+    }
+    if(!exp && exp != "number") {
+      throw "Error: Please provide exp";
+    }
+    const theUser = await userCollection.updateOne({_id: ObjectId(id)}, {$inc: {exp: exp}} )
+    if(theUser === null) {
+      throw "No user with chosen Id"
+    }
+    return theUser
+   }
 
 }

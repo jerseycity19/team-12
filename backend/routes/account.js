@@ -20,9 +20,7 @@ router.post("/", async(req, res) =>  {
         if(user.email == form.inputEmail){
             match = await bcrypt.compare(form.inputPassword, user.hashPassword);
             if(match){
-                req.session.authent = true;
-                req.session.user = user._id;
-                res.redirect("/myProfile");
+              //  res.redirect("/myProfile");
                 break;
             }
         }
@@ -48,10 +46,10 @@ router.post("/newAccount", async (req, res) => {
        }
      }
      if(exist){
-       res.render("./templates/createAcc",{verified: false, hasErrors: true, title: "Shatterproof"});
+       console.log("bull");
+       //res.render("./templates/createAcc",{verified: false, hasErrors: true, title: "Shatterproof"});
      } else {
        const newUser = await userData.createUser(form.firstName, form.lastName, form.emailInput, form.passwordInput);
-       req.session.authent = true;
        req.session.user = newUser._id;
        res.redirect("/myProfile");
      }
