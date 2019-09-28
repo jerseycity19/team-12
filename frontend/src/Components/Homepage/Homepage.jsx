@@ -28,8 +28,7 @@ class Homepage extends Component {
           </div>
           <div class="w3-quarter">
             <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-            <p class="w3-large">Design</p>
-            <p>Donote</p>
+            <p class="w3-large">Donate</p>
             <p>Click <i>here</i> to donate. 100% of donations goes to support programs to help end addiction.</p>
           </div>
           <div class="w3-quarter">
