@@ -1,21 +1,28 @@
 //In your react App.js or yourComponent.js file add these lines to import
+import React, { Component } from "react";
 import * as Survey from "survey-react";
-import "survey-react/survey.css";
+import "./Survey.scss";
 
-class App extends Component {
+class MySurvey extends Component {
+    constructor(){
+        super();
+    }
  //Define Survey JSON
  //Here is the simplest Survey with one text question
  json = {
   elements: [
-   { type: "text", name: "customerName", title: "What is your name?", isRequired: true}
+   { type: "text", name: "customerName", title: "What is your name?", isRequired: true},
+   { type: "text", name: "zipCode", title: "What is your zipcode?", isRequired: true},
+   { type: "text", name: "substances", title: "Are you or someone you know abusing substances? If so which?", isRequired: true},
+   { type: "text", name: "number", title: "If you'd like a member of our team to reach out to you, please leave your number.", isRequired: false}
   ]
  };
 
  //Define a callback methods on survey complete
- onComplete(survey, options) {
-  //Write survey results into database
-  console.log("Survey results: " + JSON.stringify(survey.data));
- }
+//  onComplete(survey, options) {
+//   //Write survey results into database
+//   console.log("Survey results: " + JSON.stringify(survey.data));
+//  }
  render() {
   //Create the model and pass it into react Survey component
   //You may create survey model outside the render function and use it in your App or component
@@ -35,3 +42,5 @@ class App extends Component {
   //If needed react Survey Component will change its behavior and change UI.
  }
 } 
+
+export default MySurvey
