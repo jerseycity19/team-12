@@ -21,7 +21,7 @@ class Homepage extends Component {
           <div class="w3-quarter">
             <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
             <p class="w3-large">End the Stigma</p>
-            <p>More people than you might expect are impacted by addiction. Click <i>here</i> to see the stats.</p>
+            <p>More people than you might expect are impacted by addiction. Click <a href="/track">here</a> to see the stats.</p>
           </div>
           <div class="w3-quarter">
             <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
