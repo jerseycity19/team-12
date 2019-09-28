@@ -59,11 +59,72 @@
 
 .column-one{
 	width: 80%;
-	margin-left: 110px;
+	margin-left: 250px;
+}
+
+.bronze-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.bronze-league-title{
+	margin-top: 20px;
+	font-size: 14px;
+	background-color: rgba(205, 127, 50, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.silver-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.silver-league-title{
+	font-size: 14px;
+	background-color: rgba(192,192,192, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.gold-league-title-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.gold-league-title{
+	font-size: 14px;
+	background-color: rgba(255,215,0, 0.4);
+	width: 110px;
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+
+}
+
+.todos-block-one{
+	/*
+	border: 2px solid #e5e5e5;
+	border-radius: 16px;
+	height: 500px;
+	width: 500px;
+	background-color: red;
+	*/
+	margin-bottom: 170px;
+}
+
+.todos-block-two{
+	margin-bottom: 170px;
+
 }
 
 
+.column-two{
 
+}
 .xp-wrapper{
 	display: flex;
 	justify-content: center;
@@ -80,4 +141,8 @@
 
 .bronze-league{
 	margin-bottom:20px;
+}
+
+.achievements-and-friends{
+	margin-bottom: 80px;
 }

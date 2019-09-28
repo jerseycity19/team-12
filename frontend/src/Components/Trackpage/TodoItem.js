@@ -18,12 +18,22 @@ export class TodoItem extends Component {
 		*/
 		//Use ternary operator 
 		//Dynamic styling
+		/*
+		border: '1px solid green',
+		background: '#f4f4f4',
+		padding: '10px',
+		marginBottom: '20px',
+		textDecoration: this.props.todo.completed ? 
+		'line-through' : 'none'
+		*/
 		return {
 			background: '#f4f4f4',
 			padding: '10px',
-			borderBottom: '1px #ccc dotted',
+		/*	borderBottom: '1px #ccc dotted', */
+			border: '2px solid #e5e5e5',
 			textDecoration: this.props.todo.completed ? 
 			'line-through' : 'none'
+
 		}
 	}
 
@@ -33,7 +43,8 @@ export class TodoItem extends Component {
 	}
 	*/
 
-	//Double braces for inline css
+	//Double braces for inline c
+	ss
 	//<div style={{ backgroundColor: '#f4f4f4' }} >
 	render(){
 		const { id,title } = this.props.todo;
