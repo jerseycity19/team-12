@@ -87,7 +87,7 @@ class Trackpage extends Component {
         <div className="body">
           <div className="space-on-top">
           </div>
-          <div className ="title">
+          <div className ="title-of-track">
             <div className="title-inner">
             <p>TAKE ACTION</p>
             <h1>Raise Awareness Track</h1>
