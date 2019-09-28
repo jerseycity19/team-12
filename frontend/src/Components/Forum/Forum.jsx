@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Forum.scss';
 
+
 class Forum extends Component {
   render(){
     return (
