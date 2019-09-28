@@ -5,7 +5,6 @@ class Homepage extends Component {
   render(){
     return (
       <div>
-        <Navbar>skdfslkj</Navbar>
         hello
       </div>
     )
