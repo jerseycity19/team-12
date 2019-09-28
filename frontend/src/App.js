@@ -6,6 +6,7 @@ import Forum from "./Components/Forum/Forum";
 import Login from "./Components/Login/Login";
 import Trackpage from './Components/Trackpage/Trackpage'
 import forumPost from './Components/forumPost/forumPost'
+import Dashboard from './Components/Dashboard/Dashboard'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
@@ -19,7 +20,8 @@ function App() {
           <Route exact path="/Forum" component={Forum} />
           <Route exact path="/Login" component={Login} />
           <Route exact path="/track" component={Trackpage} />
-          <Route exact path="/forumPost" component ={forumPost}/>
+          <Route exact path="/forumPost" component={forumPost}/>
+          <Route exact path="/Dashboard" component ={Dashboard}/>
 
         </Router>
 
