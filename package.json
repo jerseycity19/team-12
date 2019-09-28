@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jerseycity19/team-12#readme",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "4.12.0"
   }
 }
